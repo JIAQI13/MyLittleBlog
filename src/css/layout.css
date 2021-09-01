@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+:root {
+  --primaryColor: #add8e6;
+  --mainGrey: #f9f9fa;
+  --mainWhite: #fff;
+  --mainBlack: #0a0a0a;
+  --darkGrey: #8e8e8e;
+  --mainTransition: all 0.3s linear;
+  --mainSpacing: 4px;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+  background: var(--mainGrey);
+  color: var(--mainBlack);
+}
